@@ -8,3 +8,4 @@ commit the code: git commit -m ("here should be the message text, -m is for mess
 give the address(conection from local to remote repo) before push: git remote add origin https://github.com/lucianp-2021/GitPythonDemo.git
 push the code on the main branch: git push origin master
 extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
+added this edited line from git hub only for test how is working
