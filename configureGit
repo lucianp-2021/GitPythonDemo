@@ -9,4 +9,4 @@ give the address(conection from local to remote repo) before push: git remote ad
 push the code on the main branch: git push origin master
 extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
 pull the latest code changes(we have to be on our project folder): git pull origin master
-editel line for test
+edited line for test test
