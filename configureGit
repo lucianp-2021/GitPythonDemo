@@ -1,0 +1,5 @@
+give git the user name: git config --global user.name "yourUserName"
+give git the email address: gir --global user.email "yourEmail"
+change directory on terminal with the git files from local your machine
+initiate repository: git init
+add files to Stash: add * or add file.name(for the specific file)
