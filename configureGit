@@ -16,3 +16,4 @@ get the branch and see in what branch you are: git branch
 create a new branch: git chekcout -b <branch name>
 switch branch: git checkout <branch name>
 add, status, commit and then push to the desired branch: git push origin <branch name>
+merge branch master with develop: git merge develop
