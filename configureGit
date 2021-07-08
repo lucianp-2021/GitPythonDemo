@@ -14,4 +14,5 @@ extract the code from git first time(extract all eith clone, then we have to use
 pull the latest code changes(we have to be on our project folder): git pull origin master
 get the branch and see in what branch you are: git branch
 create a new branch: git chekcout -b <branch name>
+switch branch: git checkout <branch name>
 add, status, commit and then push to the desired branch: git push origin <branch name>
