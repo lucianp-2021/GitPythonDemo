@@ -17,3 +17,4 @@ create a new branch: git chekcout -b <branch name>
 switch branch: git checkout <branch name>
 add, status, commit and then push to the desired branch: git push origin <branch name>
 merge branch master with develop: git merge develop
+add only 1 file: git add path file
