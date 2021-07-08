@@ -7,8 +7,10 @@ take the status: git status
 *******2 commit the code: git commit -m ("here should be the message text, -m is for message")
 give the address(conection from local to remote repo) before push: git remote add origin https://github.com/lucianp-2021/GitPythonDemo.git
 *******3 push the code on the main branch: git push origin master
-*******4 extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
+*******4 extract the code from git first time(extract all with clone, then we have to use pull for what is new): git clone
 pull the latest code changes(we have to be on our project folder): git pull origin master
 push the code on the main branch: git push origin master
 extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
 pull the latest code changes(we have to be on our project folder): git pull origin master
+get the branch and see in what branch you are: git branch
+create a new branch: git chekcout -b <branch name>
