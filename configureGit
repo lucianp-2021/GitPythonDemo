@@ -2,4 +2,9 @@ give git the user name: git config --global user.name "yourUserName"
 give git the email address: gir --global user.email "yourEmail"
 change directory on terminal with the git files from local your machine
 initiate repository: git init
-add files to Stash: add * or add file.name(for the specific file)
+add files to Stash/Staging: git add * or git add file.name(for the specific file)
+take the status: git status
+commit the code: git commit -m ("here should be the message text, -m is for message")
+give the address(conection from local to remote repo) before push: git remote add origin https://github.com/lucianp-2021/GitPythonDemo.git
+push the code on the main branch: git push origin master
+extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
