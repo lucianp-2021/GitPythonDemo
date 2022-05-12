@@ -1,0 +1,20 @@
+give git the user name: git config --global user.name "yourUserName"
+give git the email address: gir --global user.email "yourEmail"
+change directory on terminal with the git files from local your machine
+initiate repository: git init
+*******1 IMPORTANT for add files to Stash/Staging: git add * or git add file.name(for the specific file)
+take the status: git status
+*******2 commit the code: git commit -m ("here should be the message text, -m is for message")
+give the address(conection from local to remote repo) before push: git remote add origin https://github.com/lucianp-2021/GitPythonDemo.git
+*******3 push the code on the main branch: git push origin master
+*******4 extract the code from git first time(extract all with clone, then we have to use pull for what is new): git clone
+pull the latest code changes(we have to be on our project folder): git pull origin master
+push the code on the main branch: git push origin master
+extract the code from git first time(extract all eith clone, then we have to use pull for what is new): git clone
+pull the latest code changes(we have to be on our project folder): git pull origin master
+get the branch and see in what branch you are: git branch
+create a new branch: git chekcout -b <branch name>
+switch branch: git checkout <branch name>
+add, status, commit and then push to the desired branch: git push origin <branch name>
+merge branch master with develop: git merge develop
+add only 1 file: git add path file
